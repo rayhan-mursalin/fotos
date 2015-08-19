@@ -1,7 +1,6 @@
 header {
 	height: 50px ;
 	width: 100%;
-
 }
 
 body {
@@ -9,20 +8,20 @@ body {
 }
 
 .slider {
-	padding-top: 70px;
+	padding-top: 100px;
 	position:relative;
-	width: 1024px;
-	height: 768px;
+	width: 720px;
+	height: 405px;
 	margin: 0 auto;
 }
 
 .slider img {
 	position: absolute;
-	top:0px;
+	top:40px;
 	left:0px;
 	display: none;
-	width: 1024px;
-	height: 768px;
+	width: 720px;
+	height: 405px;
 	border:10px solid white;
 
 }
@@ -63,7 +62,7 @@ body {
 .buttons a {
 	position:absolute;
 	z-index: 1000;
-	top: 330px;
+	top: 130px;
 	height: 30px;
 	width: 30px;
 	background: url(http://oi41.tinypic.com/t6dxsm.jpg);
